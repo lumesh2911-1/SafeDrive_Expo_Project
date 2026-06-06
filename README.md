@@ -1,56 +1,233 @@
-# Welcome to your Expo app 👋
+# 🚗 SafeDrive - Smart Driving Safety App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+SafeDrive is a modern mobile application built with **Expo**, **React Native**, **Expo Router**, and **TypeScript** that helps users monitor driving behavior, track trips, analyze driving performance, and improve road safety using device sensors and location tracking.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+- 🚗 Start & End Driving Sessions
+- 📊 Real-Time Driving Score Monitoring
+- 📈 Driving Performance Analytics
+- ⚡ Accelerometer-Based Driving Analysis
+- 🔄 Gyroscope Motion Detection
+- 📱 Device Motion Monitoring
+- 🚨 Detect Harsh Braking Events
+- ↩️ Detect Sharp Turns
+- 🏆 Driving Score Evaluation
+- 📋 Drive History Tracking
+- 📡 Live Sensor Monitoring
+- 👤 Driver Profile Dashboard
+- ⚡ Built with TypeScript
+- 🎨 Responsive Mobile Design
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 📸 Screenshots
 
-   ```bash
-   npx expo start
-   ```
+Screenshots are available inside the **Screenshots** folder.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Prerequisites
 
-## Get a fresh project
+Before running the project, make sure you have:
 
-When you're ready, run:
+- Node.js
+- npm or yarn
+- Expo CLI
+- Android Studio (Android Emulator)
+- Xcode (iOS Simulator - macOS only)
+
+---
+
+## 📥 Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/lumesh2911-1/SafeDrive_Expo_Project
+
+cd SafeDrive_Expo_Project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## 📦 Install Dependencies
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Using npm:
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Using yarn:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+yarn install
+```
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## ▶️ Run the Application
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Start the Expo development server:
+
+```bash
+npx expo start
+```
+
+Then:
+
+- Press `a` to launch Android Emulator
+- Press `i` to launch iOS Simulator
+- Scan the QR Code using Expo Go
+
+---
+
+## 📱 Core Features
+
+### 🚗 Smart Driving Detection
+
+SafeDrive continuously monitors driving activity using:
+
+- Accelerometer
+- Gyroscope
+- Device Motion Sensors
+
+---
+
+### 📊 Driving Score System
+
+The application evaluates:
+
+- Smooth Driving
+- Harsh Braking
+- Sharp Turning
+- Phone Handling During Driving
+- Overall Driving Behavior
+
+Users receive a real-time driving score ranging from **0 to 100**.
+
+---
+
+### 📋 Drive History
+
+Track previous trips with:
+
+- Date & Time
+- Average Speed
+- Drive Duration
+- Driving Score
+- Safety Rating
+
+---
+
+### 📡 Live Sensor Dashboard
+
+Monitor sensor values in real-time:
+
+- Accelerometer
+- Gyroscope
+- Motion Sensors
+- Driving Events
+
+---
+
+### 👤 Driver Profile
+
+View:
+
+- Driver Information
+- Total Drives
+- Best Score
+- Driving Statistics
+
+---
+
+## 📦 Dependencies
+
+```bash
+expo
+expo-router
+react-native
+typescript
+react-native-size-matters
+lucide-react-native
+react-native-svg
+expo-location
+expo-sensors
+react-native-safe-area-context
+```
+
+Install required packages:
+
+```bash
+npx expo install expo-location
+npx expo install expo-sensors
+npx expo install react-native-svg
+npx expo install react-native-safe-area-context
+```
+
+---
+
+## 🔄 App Flow
+
+1. User launches SafeDrive.
+2. Splash Screen appears.
+3. Sensor Permission screen is displayed.
+4. User grants required permissions.
+5. Dashboard opens.
+6. User taps **Start Drive**.
+7. SafeDrive begins monitoring:
+   - Location
+   - Accelerometer
+   - Gyroscope
+   - Motion Sensors
+
+8. Driving score updates in real-time.
+9. Events such as:
+   - Harsh Braking
+   - Sharp Turns
+   - Rapid Acceleration
+     are detected automatically.
+
+10. User ends the drive.
+11. Trip data is stored in Drive History.
+12. Analytics are displayed on Dashboard.
+
+---
+
+## 🛠️ Technologies Used
+
+- Expo
+- React Native
+- Expo Router
+- TypeScript
+- React Hooks
+- Expo Location
+- Expo Sensors
+- Lucide React Native
+- React Native SVG
+- React Native Size Matters
+
+---
+
+## 👨‍💻 Author
+
+### Lumesh Kumar Sahu
+
+Software Engineer | React Native Developer
+
+---
+
+## 🌐 Connect With Me
+
+- GitHub: https://github.com/lumesh2911-1
+- LinkedIn: https://www.linkedin.com/in/lumesh2911/
+- Medium: https://medium.com/@lumesh2911
+- Portfolio: https://lumesh.vercel.app/
+
+---
+
+## 📄 License
+
+This project is open-source and available for learning, personal use, and portfolio projects.
